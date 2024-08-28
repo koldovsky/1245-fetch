@@ -2,6 +2,9 @@ const response = await fetch('api/products.json');
 const products = await response.json();
 renderProducts(products);
 
+// import products from '/api/products.json' with {type: 'json'};
+// renderProducts(products);
+
 // fetch('api/products.json')
 //   .then( response => response.json() )
 //   .then( products => renderProducts(products) );
